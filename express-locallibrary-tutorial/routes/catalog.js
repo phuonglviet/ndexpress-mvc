@@ -19,5 +19,8 @@ router.get('/author/create', author_controller.author_create_get);
 // POST request for creating Author.
 router.post('/author/create', author_controller.author_create_post);
 
+// GET request for one Author.
+router.get('/author/:id', author_controller.author_detail);
+
 
 module.exports = router;
