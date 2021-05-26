@@ -5,7 +5,8 @@ block content
   
   ul
   each author in author_list
-    li 
+    li
+      span author: 
       a(href=author.url) #{author.name} 
       | (#{author.lifespan})
 
