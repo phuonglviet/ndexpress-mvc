@@ -9,6 +9,8 @@ var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog');  //Import routes for "catalog" area of site
 var mongooseConn = require('./mongooseConn');
 
+const dotenv = require('dotenv').config();
+
 var app = express();
 
 // view engine setup
